@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+.App {
+  font-family: "Raleway";
+  /* background-color: #9db7dc; */
+  /* background-color: #375175; */
+  max-width: 100%;
+  margin-bottom: 5vw;
+}
+.heading-font {
+  font-family: "Cinzel Decorative";
+  font-size: 4em;
+  margin: 0;
+  padding-top: 10px;
+  /* color: #d9d9d9; */
+  color: orangered;
+  text-align: center;
+}
+.tagline {
+  color: tomato;
+  text-align: center;
+}
+.form-style {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.ip-style {
+  width: 40%;
+  /* height: 7vh; */
+  font-size: 2vw;
+  border: 2px solid orangered;
+  outline: none;
+  padding-left: 20px;
+  border-right: none;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: lightgray;
+}
+.btn-style {
+  width: 15%;
+  font-size: 3vw;
+  border: 2px solid orangered;
+  border-left: 1px solid gray;
+  /* border-left: none; */
+  outline: none;
+  cursor: pointer;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background-color: lightgray;
+}
+
+@media screen and (max-width: 480px) {
+  .ip-style{
+    height: 2rem;
+  }
+}
